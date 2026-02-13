@@ -7,7 +7,6 @@ This is my own AES-128 implmentation from scratch in Python.
 I will include in the future all AES modes modules working with this implmentation.
 
 ## Usage
-Inside aes-128 folder:
 ```python
 from aes128.main import aes128_encrypt, aes128_decrypt
 
