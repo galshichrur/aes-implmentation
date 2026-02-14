@@ -1,6 +1,7 @@
 from aes128.state import State, bytes_to_state, state_to_bytes
 from utils import xor_bytes
 
+
 def add_round_key(key: State, state: State) -> None:
     for col in range(4):
         for row in range(4):
